@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Solid_white.png" class="img-sun" alt="Sun">
+
+    <!-- <img src="https://i.pinimg.com/550x/61/e4/0e/61e40e9beacf30ac6bf457d3a8396a4b.jpg" class="img-walk" alt="Finding Himself"> -->
+    <h1>Verse Me</h1>
+    
+    <img src="https://t4.ftcdn.net/jpg/00/96/68/37/360_F_96683737_rm2HQMEXTHoIHV9Fd4Jj6z8J2fiLvT7c.jpg" class="img-icon" alt="Bible Icon">
+    
+    <form>
+    <input type="search" class="search-bar" id="search1" placeholder="Ex. John 11:35"/>
+    <input type="submit" placeholder="Get bible Verse" id="submits">
+    <p class="output" id="output1"> </p>
+    </form>
+
+<div id="tool-bar">
+    <button class="home" id="home" onclick="window.location.reload()">Home</button>
+
+    <p id="textAppear">
+        <strong>Hello there!</strong> Our mission is to ensure that everyone has a smooth experience when searching for verses to understand what the text says in the <em>bible</em>. We noticed from our own experiences that a lot of websites and apps these days have become pretty repetitive and boring. So we want to create something new with the website. <strong>Enjoy! </strong>
+    </p>
+    <button id="aUs" onclick="textAppear()">About Us</button>
+
+    <button class="vOTD" id="vOTD" onclick="getVerse()">Verse of the Day</button>
+</div>
+
+<div class="output" id="output">
+    <dl>
+        <dt id="book_name"></dt>
+        
+        <dt id="text"></dt>
+    </dl>
+</div>
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
