@@ -2,7 +2,7 @@
 
 https://verse-me1234124.netlify.app/
 
-For my first project I decided to take things slow and truly grasp 
+For my first project I decided to take things slow and grasp 
 JS by retrieving data through an API, either from a search bar or
 randomized button. I used DOM manipulation to retrieve the data on 
 two API's. One is specifically to search and the other to randomize.
