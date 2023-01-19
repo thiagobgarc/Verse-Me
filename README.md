@@ -1,6 +1,6 @@
 # Verse-Me
 
-https://verse-me1234124.netlify.app/
+https://verse-me1234896.netlify.app
 
 For my first project I decided to take things slow and grasp 
 JS by retrieving data through an API, either from a search bar or
