@@ -12,7 +12,7 @@ the entire page to give you a better understanding on how I wrote
 my code. 
 
 
-<strong>Problems</strong>
+### Problems
 <ul>
 <li>
 Attempting to find a way to randomze the Verse of the Day button. It took 
@@ -28,7 +28,7 @@ to the web application.
 </li>
 </ul>
 
-<strong>Strengths</strong>
+### Strengths
 
 <ul>
 <li>
